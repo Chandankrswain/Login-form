@@ -1,0 +1,83 @@
+*{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background-image: url(../Capture.PNG);
+}
+
+.form-container{
+    width: 350px;
+    height: 250px;
+    background-color:rgb(235, 235, 235);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 33px;
+}
+
+#submit{
+    background-color: #191919;
+    color: rgb(235, 235, 235);
+    border: none;
+    height: 54px;
+    width: 100%;
+    font-weight:600;
+    letter-spacing: 2px;
+}
+
+.remember-me-section{
+    align-items: center;
+    display: flex;
+}
+
+.remember-me-section input{
+    margin: 0px;
+}
+
+.remember-me-section h6{
+    margin-left: 10px;
+    font-size: 13px;
+    color: #252525;
+    letter-spacing: 2px;
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    height: auto;
+    font-size: 18;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(235, 235, 235);
+}
+
+form input::placeholder{
+    color: #252525;
+    font-weight: 700;
+
+    padding-bottom:0px;
+   
+}
+
+form input:focus{
+    outline: none;
+}
+
+form input button{
+    
+}
