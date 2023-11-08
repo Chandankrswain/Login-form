@@ -11,17 +11,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <img class="illuminati" src="../login-form/triangle.png">
     <div class="form-container">
         <form>
             <input type="Text" placeholder="USERNAME">
-            <input type="password" placeholder="PASSWORD">
+            <div class="password-section">
+                <input type="password" placeholder="PASSWORD">
+                <p>FORGET?</p>
+            </div>
             <div class="remember-me-section">
-                <input type="checkbox">
+                <input id="checkbox" type="checkbox">
                 <h6>REMEMBER ME</h6>
             </div>
         </form>
         <input id="submit" type="submit" value="LOG IN">
     </div>
-     
 </body>
 </html>
