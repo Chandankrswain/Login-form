@@ -32,7 +32,14 @@ body{
     color: rgb(178, 178, 178);
     font-weight: 700;
     font-size: 14px;
-    width: auto;
+    width: 100%;
+    padding-left: 40px;
+    transition: color 0.1s;
+}
+
+.forget:hover{
+    cursor: pointer;
+    color: rgb(158, 157, 157);
 }
 
 .form-container{
@@ -48,7 +55,7 @@ form{
 }
 
 #submit{
-    background-color: #191919;
+    background-color: #111111;
     color: rgb(235, 235, 235);
     border: none;
     height: 54px;
@@ -63,9 +70,11 @@ form{
 }
 
 #checkbox{
-    background-color: rgb(178, 178, 178) ;
+    
 }
-
+#checkbox:checked { 
+    accent-color:  rgb(232, 232, 232);
+}
 .remember-me-section input{
     margin: 0px;
 }
@@ -97,6 +106,10 @@ form input:focus{
     outline: none;
 }
 
-form input button{
-    
+.remember-me-section label{
+    margin-left: 10px;
+    color: #252525;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
