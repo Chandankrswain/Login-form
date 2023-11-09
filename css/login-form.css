@@ -26,15 +26,17 @@ body{
 
 .password-section{
     display: flex;
-    
+}
+
+.pass{
+    flex: 1;
 }
 
 .forget{
     color: rgb(178, 178, 178);
     font-weight: 700;
     font-size: 14px;
-    width: 100%;
-    padding-left: 40px;
+    padding-left: 10px;
     transition: color 0.1s;
 }
 
@@ -55,6 +57,33 @@ form{
     flex-direction: column;
     padding: 20px 33px;
     margin-bottom: 7px;
+}
+
+@media (max-width :480px) {
+    form input{
+        width:auto;
+    }
+
+    .form-container{
+        width: 250px;
+        height: 180px; 
+    }
+
+    .pass{
+        width: 100px;
+    }
+    
+    .bottom-content{
+        flex-direction: row;
+        margin-top: 2.8rem;
+    }
+
+    .bottom-content button{
+        color: rgb(235, 235, 235)  !important;
+        font-weight: 600 !important;
+        font-size: 10px !important;
+        text-decoration: none !important;
+    }
 }
 
 #submit{
@@ -114,6 +143,11 @@ form input:focus{
     font-weight: 700;
     letter-spacing: 1px;
     
+}
+
+.bottom-content{
+    display: flex; 
+    justify-content: center;  
 }
 
 .bottom-content span{
