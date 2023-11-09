@@ -26,6 +26,7 @@ body{
 
 .password-section{
     display: flex;
+    
 }
 
 .forget{
@@ -44,14 +45,16 @@ body{
 
 .form-container{
     width: 345px;
-    height: 220px;
-    background-color:rgb(235, 235, 235);
+    height: 230px;
+    margin-bottom:15px;
+    background-color:rgb(249, 249, 249);
 }
 
 form{
     display: flex;
     flex-direction: column;
     padding: 20px 33px;
+    margin-bottom: 7px;
 }
 
 #submit{
@@ -69,9 +72,6 @@ form{
     display: flex;
 }
 
-#checkbox{
-    
-}
 #checkbox:checked { 
     accent-color:  rgb(232, 232, 232);
 }
@@ -83,6 +83,7 @@ form{
     margin-left: 10px;
     font-size: 13px;
     color: #252525;
+   
 }
 
 form input{
@@ -92,7 +93,7 @@ form input{
     font-size: 14px;
     margin-top: 10px;
     margin-bottom: 20px;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(249, 249, 249)
 }
 
 form input::placeholder{
@@ -112,4 +113,25 @@ form input:focus{
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
+    
+}
+
+.bottom-content span{
+    color: rgb(208, 208, 208);
+}
+
+.bottom-content button{
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset:5px;
+    margin-bottom: 5px;
+    color: rgb(230, 230, 230);
+    background-color: transparent;
+}
+
+.bottom-content button:hover{
+    color: rgb(210, 210, 210);
 }
